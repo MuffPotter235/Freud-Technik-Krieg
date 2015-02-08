@@ -1,0 +1,53 @@
+\documentclass[11pt,a4paper,oneside,numbers=noenddot,bibliography=totocnumbered,DIV=13]{scrartcl}
+%\usepackage[lmargin=2cm,rmargin=4cm,tmargin=3cm,bmargin=3cm]{geometry}
+%Sprache
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+%Typografie
+\usepackage[bitstream-charter]{mathdesign}
+%\usepackage{txfonts}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\usepackage{url}
+%Ã¼berschriften in Helvetica
+\usepackage{sectsty}
+\allsectionsfont{\fontfamily{phv}\selectfont\normalsize} 
+%Schusterjungen
+\clubpenalty = 10000 
+\widowpenalty = 10000 
+\displaywidowpenalty = 10000
+% Zeilenabstand
+\usepackage{setspace}
+\onehalfspacing
+%Zitate
+\newcommand{\block}[2]{{\footnotesize\singlespacing\blockquote{\enquote{#1}{#2}}}\vspace{+2mm}}% <-- Hier kannst du den Abstand veraendern
+\usepackage{tocstyle} 
+%\usetocstyle{KOMAlike}%Find ich eigentlich gut 
+\addtocontents{toc}{\protect\fontfamily{phv}} 
+
+
+\setkomafont{title}{\normalfont\bfseries}
+
+
+\begin{document}
+
+\titlehead{Freie Universität Berlin \hfill Autor: Jan Opper\\
+Otto-Suhr Institut für Politikwissenschaft\hfill Mat.-Nr.: 4655381\\
+SE: Geburt der Moderne oder Zeugung der Post-Moderne\hfill {E-Mail: Opperj@zedat.fu-berlin.de}\\
+Leitung: Gerd Harders\hfill 15.10.2014\\
+Sommersemester 2014\\} 
+\title{\large Tod und Technik} 
+\subtitle{\small DSigmund Freud und der Post-Moderne Krieg\}}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\section{Test}
+Test
+
+
+
+
+\newpage
+\bibliography{Postmoderne_HA_Bib}
+\end{document}
