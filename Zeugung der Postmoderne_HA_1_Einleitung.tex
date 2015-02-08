@@ -1,0 +1,38 @@
+\documentclass[11pt,a4paper,oneside,numbers=noenddot,bibliography=totocnumbered,DIV=13]{scrartcl}
+%\usepackage[lmargin=2cm,rmargin=4cm,tmargin=3cm,bmargin=3cm]{geometry}
+%Sprache
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+%Typografie
+\usepackage[bitstream-charter]{mathdesign}
+%\usepackage{txfonts}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\usepackage{url}
+%Ã¼berschriften in Helvetica
+\usepackage{sectsty}
+\allsectionsfont{\fontfamily{phv}\selectfont\normalsize} 
+%Schusterjungen
+\clubpenalty = 10000 
+\widowpenalty = 10000 
+\displaywidowpenalty = 10000
+% Zeilenabstand
+\usepackage{setspace}
+\onehalfspacing
+%Zitate
+\newcommand{\block}[2]{{\footnotesize\singlespacing\blockquote{\enquote{#1}{#2}}}\vspace{+2mm}}% <-- Hier kannst du den Abstand veraendern
+\usepackage{tocstyle} 
+%\usetocstyle{KOMAlike}%Find ich eigentlich gut 
+\addtocontents{toc}{\protect\fontfamily{phv}} 
+
+
+\setkomafont{title}{\normalfont\bfseries}
+
+
+\begin{document}
+\section{Einleitung}
+Mit dem \textit{Golfkrieg} 1991\footnote{der Terminus meint die Intervention einer Koalition verschiedener Staaten 1991 in Kuwait und den Irak unter Führung der USA} begann in der einschlägigen Literatur die Diskussion über eine Veränderte Art und Weise der Kriegsführung industrieller Staaten. Spätestens seit der NATO Intervention in das Kosovo wurde in weiten Teilen der Literatur dabei von einem neuen Modus (westlicher) Kriegsführung gesprochen. Besondere Beachtung fanden dabei die veränderte Strategie, gepaart mit dem Einsatz neuer Technik wie beispielsweise dem Einsatz von sogenannten \textit{Präzisionswaffen} oder \textit{smart-bombs} aus großer Distanz wie zum Beispiel der Luft oder von Schiffen und den damit verbundenen ungleichen Verlustzahlen zwischen den Kriegsparteien, sowie der Repräsentation der Kriege in den Medien. 
+%
+
+\newpage
+\end{document}
